@@ -38,6 +38,7 @@ action "Git Push to Production" {
 |-|-|-|
 | `WPENGINE_ENVIRONMENT` | Environment Variable  | Defaults to `production`. You shouldn't need to change this, but if you're using WP Engine's legacy staging, you can override the default and set to `staging` if needed. |
 | `LOCAL_BRANCH` | Environment Variable  | Set which branch in your repository you'd like to push to WP Engine. Defaults to `master`. |
+| `REMOTE_BRANCH` | Environment Variable  | Set which branch in WP Engine to push the changes. Defaults to `master`. |
 
 ### Further reading
 
